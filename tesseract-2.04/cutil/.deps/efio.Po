@@ -1,0 +1,35 @@
+efio.o efio.o: efio.cpp efio.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/cdefs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h danerror.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/setjmp.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/setjmp.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/setjmp.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+
+efio.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/cdefs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h:
+
+danerror.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/setjmp.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/setjmp.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/setjmp.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h:

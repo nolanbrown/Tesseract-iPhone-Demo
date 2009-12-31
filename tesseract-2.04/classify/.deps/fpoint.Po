@@ -1,0 +1,63 @@
+fpoint.o fpoint.o: fpoint.cpp ../cutil/const.h fpoint.h \
+  ../cutil/general.h ../ccutil/host.h ../ccutil/platform.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/syslimits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/cdefs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/syslimits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/architecture/i386/math.h
+
+../cutil/const.h:
+
+fpoint.h:
+
+../cutil/general.h:
+
+../ccutil/host.h:
+
+../ccutil/platform.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/syslimits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/cdefs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/syslimits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/architecture/i386/math.h:

@@ -1,0 +1,16 @@
+vecfuncs.o vecfuncs.o: vecfuncs.cpp ../ccutil/mfcpch.h vecfuncs.h \
+  ../ccutil/tessclas.h /Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/architecture/i386/math.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/cdefs.h
+
+../ccutil/mfcpch.h:
+
+vecfuncs.h:
+
+../ccutil/tessclas.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/architecture/i386/math.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/cdefs.h:

@@ -1,0 +1,447 @@
+svutil.o svutil.o: svutil.cpp svutil.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/cdefs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread_impl.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sched.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/_structs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_structs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/semaphore.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/appleapiopts.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/endian.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/endian.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_endian.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/fcntl.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/semaphore.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/c++config.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/os_defines.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/unistd.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/select.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_select.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/cpu_defines.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stringfwd.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cstring \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cstddef \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stddef.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/climits \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/syslimits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/syslimits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cstdlib \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/Availability.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/AvailabilityInternal.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/wait.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/signal.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/signal.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/signal.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_structs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_structs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/i386/_structs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/resource.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/alloca.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/c++locale.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/clocale \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/locale.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/_locale.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cstdio \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cstdarg \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stdarg.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/c++io.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/gthr.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/gthr-default.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cctype \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/runetype.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/_wctype.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stdint.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/functexcept.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/exception_defines.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_pair.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/cpp_type_traits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ext/type_traits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/utility \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_relops.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_iterator_base_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_iterator_base_funcs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/concept_check.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_iterator.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/debug/debug.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/memory \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/allocator.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/c++allocator.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ext/new_allocator.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/new \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/exception \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_construct.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_uninitialized.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_raw_storage_iter.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/limits \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/ostream_insert.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_function.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/basic_string.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ext/atomicity.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/atomic_word.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/algorithm \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algo.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_heap.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_tempbuf.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/basic_string.tcc \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_param.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_param.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet6/in6.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/netdb.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iostream \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ostream \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ios \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/localefwd.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/ios_base.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_classes.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/streambuf \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/streambuf.tcc \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/basic_ios.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/streambuf_iterator.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwctype \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/wctype.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/ctype_base.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/ctype_inline.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/codecvt.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/time_members.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/messages_members.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/basic_ios.tcc \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/ostream.tcc \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/locale \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/typeinfo \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/istream \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/istream.tcc
+
+svutil.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/cdefs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread_impl.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sched.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/_structs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_structs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/semaphore.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/appleapiopts.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/endian.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/endian.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_endian.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/libkern/_OSByteOrder.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/libkern/i386/_OSByteOrder.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/fcntl.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/semaphore.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/c++config.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/os_defines.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/unistd.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/select.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_select.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/cpu_defines.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stringfwd.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cstring:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cstddef:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stddef.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/climits:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/syslimits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/syslimits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cstdlib:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/Availability.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/AvailabilityInternal.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/wait.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/signal.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/signal.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/signal.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_structs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_structs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/i386/_structs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/resource.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/alloca.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/c++locale.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/clocale:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/locale.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/_locale.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cstdio:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cstdarg:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stdarg.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/c++io.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/gthr.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/gthr-default.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cctype:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/runetype.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/_wctype.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stdint.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/functexcept.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/exception_defines.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_pair.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/cpp_type_traits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ext/type_traits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/utility:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_relops.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_iterator_base_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_iterator_base_funcs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/concept_check.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_iterator.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/debug/debug.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/memory:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/allocator.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/c++allocator.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ext/new_allocator.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/new:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/exception:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_construct.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_uninitialized.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_raw_storage_iter.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/limits:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/ostream_insert.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_function.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/basic_string.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ext/atomicity.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/atomic_word.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/algorithm:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algo.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_heap.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_tempbuf.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/basic_string.tcc:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_param.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_param.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet6/in6.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/netdb.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iostream:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ostream:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ios:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/localefwd.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/ios_base.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_classes.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/streambuf:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/streambuf.tcc:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/basic_ios.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/streambuf_iterator.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwctype:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/wctype.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/ctype_base.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/ctype_inline.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/codecvt.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/time_members.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/i686-apple-darwin10/bits/messages_members.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/basic_ios.tcc:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/ostream.tcc:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/locale:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/typeinfo:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/istream:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/istream.tcc:

@@ -1,0 +1,272 @@
+charcut.o charcut.o: charcut.cpp ../ccutil/mfcpch.h charcut.h pgedit.h \
+  ../ccstruct/ocrblock.h ../image/img.h ../ccutil/memry.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stddef.h \
+  ../ccutil/host.h ../ccutil/platform.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/syslimits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/cdefs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/syslimits.h \
+  ../ccstruct/ocrrow.h /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h \
+  ../ccstruct/quspline.h ../ccstruct/quadratc.h ../ccstruct/points.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/architecture/i386/math.h \
+  ../ccutil/elst.h ../ccutil/serialis.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/Availability.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/AvailabilityInternal.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/wait.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/signal.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/appleapiopts.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/signal.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/signal.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_structs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_structs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_structs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/i386/_structs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/resource.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/endian.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/endian.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_endian.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/alloca.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h ../ccutil/memry.h \
+  ../ccutil/errcode.h ../ccutil/fileerr.h ../ccutil/lsterr.h \
+  ../ccstruct/ipoints.h ../ccutil/serialis.h ../ccutil/memry.h \
+  ../ccstruct/rect.h ../ccutil/ndminx.h ../ccutil/tprintf.h \
+  ../ccutil/varable.h ../ccutil/clst.h ../ccutil/strngs.h \
+  ../viewer/scrollview.h ../ccstruct/werd.h ../ccutil/varable.h \
+  ../ccutil/bits16.h ../ccutil/strngs.h ../ccstruct/blckerr.h \
+  ../ccutil/errcode.h ../ccstruct/stepblob.h ../ccstruct/coutln.h \
+  ../ccstruct/crakedge.h ../ccstruct/mod128.h ../ccstruct/polyblob.h \
+  ../ccstruct/poutline.h ../ccstruct/polyvert.h ../ccutil/elst2.h \
+  ../ccstruct/normalis.h ../ccstruct/pageblk.h ../ccstruct/txtregn.h \
+  ../ccstruct/hpdsizes.h ../ccstruct/polyblk.h ../ccstruct/hpddef.h \
+  ../ccutil/debugwin.h ../ccstruct/pdblock.h ../ccstruct/ocrrow.h \
+  ../ccstruct/werd.h ../ccstruct/rect.h pagewalk.h ../ccstruct/polyblob.h \
+  ../ccstruct/stepblob.h ../ccutil/varable.h ../ccutil/notdll.h \
+  ../image/imgs.h ../image/img.h ../ccutil/varable.h ../image/svshowim.h \
+  ../ccutil/host.h ../viewer/scrollview.h
+
+../ccutil/mfcpch.h:
+
+charcut.h:
+
+pgedit.h:
+
+../ccstruct/ocrblock.h:
+
+../image/img.h:
+
+../ccutil/memry.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stddef.h:
+
+../ccutil/host.h:
+
+../ccutil/platform.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/syslimits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/cdefs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/syslimits.h:
+
+../ccstruct/ocrrow.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h:
+
+../ccstruct/quspline.h:
+
+../ccstruct/quadratc.h:
+
+../ccstruct/points.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/architecture/i386/math.h:
+
+../ccutil/elst.h:
+
+../ccutil/serialis.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/Availability.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/AvailabilityInternal.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/wait.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/signal.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/appleapiopts.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/signal.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/signal.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_structs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_structs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_structs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/i386/_structs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/resource.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/endian.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/endian.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_endian.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/libkern/_OSByteOrder.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/libkern/i386/_OSByteOrder.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/alloca.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h:
+
+../ccutil/memry.h:
+
+../ccutil/errcode.h:
+
+../ccutil/fileerr.h:
+
+../ccutil/lsterr.h:
+
+../ccstruct/ipoints.h:
+
+../ccutil/serialis.h:
+
+../ccutil/memry.h:
+
+../ccstruct/rect.h:
+
+../ccutil/ndminx.h:
+
+../ccutil/tprintf.h:
+
+../ccutil/varable.h:
+
+../ccutil/clst.h:
+
+../ccutil/strngs.h:
+
+../viewer/scrollview.h:
+
+../ccstruct/werd.h:
+
+../ccutil/varable.h:
+
+../ccutil/bits16.h:
+
+../ccutil/strngs.h:
+
+../ccstruct/blckerr.h:
+
+../ccutil/errcode.h:
+
+../ccstruct/stepblob.h:
+
+../ccstruct/coutln.h:
+
+../ccstruct/crakedge.h:
+
+../ccstruct/mod128.h:
+
+../ccstruct/polyblob.h:
+
+../ccstruct/poutline.h:
+
+../ccstruct/polyvert.h:
+
+../ccutil/elst2.h:
+
+../ccstruct/normalis.h:
+
+../ccstruct/pageblk.h:
+
+../ccstruct/txtregn.h:
+
+../ccstruct/hpdsizes.h:
+
+../ccstruct/polyblk.h:
+
+../ccstruct/hpddef.h:
+
+../ccutil/debugwin.h:
+
+../ccstruct/pdblock.h:
+
+../ccstruct/ocrrow.h:
+
+../ccstruct/werd.h:
+
+../ccstruct/rect.h:
+
+pagewalk.h:
+
+../ccstruct/polyblob.h:
+
+../ccstruct/stepblob.h:
+
+../ccutil/varable.h:
+
+../ccutil/notdll.h:
+
+../image/imgs.h:
+
+../image/img.h:
+
+../ccutil/varable.h:
+
+../image/svshowim.h:
+
+../ccutil/host.h:
+
+../viewer/scrollview.h:

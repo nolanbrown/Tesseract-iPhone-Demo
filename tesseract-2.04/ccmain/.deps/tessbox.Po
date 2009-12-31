@@ -1,0 +1,439 @@
+tessbox.o tessbox.o: tessbox.cpp ../ccutil/mfcpch.h tfacep.h \
+  ../ccutil/hosthplb.h ../ccutil/host.h ../ccutil/platform.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/syslimits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/cdefs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_limits.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/syslimits.h \
+  ../ccutil/tessclas.h ../cutil/tessarray.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h tstruct.h \
+  ../ccstruct/werd.h ../ccutil/varable.h ../ccutil/clst.h \
+  ../ccutil/serialis.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/Availability.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/AvailabilityInternal.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/wait.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/signal.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/appleapiopts.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/signal.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/signal.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_structs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_structs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_structs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/i386/_structs.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/resource.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/endian.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/endian.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_endian.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/alloca.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h ../ccutil/memry.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stddef.h \
+  ../ccutil/errcode.h ../ccutil/fileerr.h ../ccutil/lsterr.h \
+  ../ccutil/strngs.h ../ccutil/bits16.h ../ccutil/strngs.h \
+  ../ccstruct/blckerr.h ../ccutil/errcode.h ../ccstruct/stepblob.h \
+  ../ccstruct/coutln.h ../ccstruct/crakedge.h ../ccstruct/points.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/architecture/i386/math.h \
+  ../ccutil/elst.h ../ccstruct/ipoints.h ../ccstruct/mod128.h \
+  ../ccstruct/rect.h ../ccutil/ndminx.h ../ccutil/tprintf.h \
+  ../ccutil/varable.h ../viewer/scrollview.h ../ccstruct/polyblob.h \
+  ../ccstruct/poutline.h ../ccstruct/polyvert.h ../ccutil/elst2.h \
+  ../ccstruct/normalis.h ../ccstruct/ocrrow.h ../ccstruct/quspline.h \
+  ../ccstruct/quadratc.h ../ccutil/serialis.h ../ccutil/memry.h \
+  ../ccstruct/werd.h ../ccstruct/ratngs.h ../ccutil/clst.h \
+  ../ccutil/notdll.h ../ccutil/unichar.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/memory.h ../ccutil/notdll.h \
+  ../cutil/oldlist.h ../cutil/cutil.h ../cutil/general.h ../ccutil/host.h \
+  ../ccutil/tprintf.h ../dict/choices.h ../cutil/oldlist.h \
+  ../dict/hyphen.h ../dict/choices.h ../cutil/emalloc.h \
+  ../cutil/callcpp.h ../ccutil/varable.h ../ccutil/unichar.h \
+  ../dict/dawg.h /Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/runetype.h \
+  ../cutil/general.h ../wordrec/tface.h ../ccutil/host.h \
+  ../dict/choicearr.h ../cutil/tessarray.h ../ccutil/tessclas.h \
+  ../cutil/cutil.h ../dict/permute.h ../dict/choicearr.h \
+  ../classify/adaptmatch.h ../cutil/oldlist.h ../ccutil/tessclas.h \
+  ../classify/fxdefs.h ../cutil/general.h ../dict/matchdefs.h \
+  ../ccutil/unichar.h ../classify/adaptive.h ../classify/intproto.h \
+  ../classify/protos.h ../cutil/bitvec.h ../cutil/cutil.h \
+  ../ccutil/unichar.h ../cutil/callcpp.h ../ccutil/unicharset.h \
+  ../ccutil/unichar.h ../ccutil/unicharmap.h ../classify/ocrfeatures.h \
+  ../cutil/funcdefs.h ../ccstruct/ratngs.h ../classify/blobclass.h \
+  ../dict/stopper.h ../dict/states.h ../wordrec/associate.h \
+  ../wordrec/matrix.h ../cutil/oldlist.h ../dict/choices.h \
+  ../dict/states.h ../ccstruct/blobs.h ../ccstruct/vecfuncs.h \
+  ../ccutil/tessclas.h ../wordrec/split.h ../wordrec/seam.h \
+  ../cutil/tessarray.h ../wordrec/chop.h ../cutil/oldheap.h expandblob.h \
+  ../cutil/tordvars.h ../wordrec/metrics.h ../wordrec/measure.h \
+  ../wordrec/bestfirst.h ../wordrec/closed.h ../wordrec/associate.h \
+  ../dict/stopper.h ../wordrec/badwords.h ../cutil/structures.h \
+  ../ccutil/tessclas.h ../cutil/oldlist.h ../cutil/freelist.h \
+  ../cutil/danerror.h /Developer/SDKs/MacOSX10.6.sdk/usr/include/setjmp.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/setjmp.h \
+  /Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/setjmp.h tfacepp.h \
+  ../ccutil/varable.h tessbox.h ../classify/mfoutline.h \
+  ../classify/fpoint.h ../classify/baseline.h
+
+../ccutil/mfcpch.h:
+
+tfacep.h:
+
+../ccutil/hosthplb.h:
+
+../ccutil/host.h:
+
+../ccutil/platform.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/syslimits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/cdefs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_limits.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/syslimits.h:
+
+../ccutil/tessclas.h:
+
+../cutil/tessarray.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h:
+
+tstruct.h:
+
+../ccstruct/werd.h:
+
+../ccutil/varable.h:
+
+../ccutil/clst.h:
+
+../ccutil/serialis.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/Availability.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/AvailabilityInternal.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/wait.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/signal.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/appleapiopts.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/signal.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/signal.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_structs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_structs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/_structs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/i386/_structs.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/resource.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/endian.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/endian.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_endian.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/libkern/_OSByteOrder.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/libkern/i386/_OSByteOrder.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/alloca.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h:
+
+../ccutil/memry.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stddef.h:
+
+../ccutil/errcode.h:
+
+../ccutil/fileerr.h:
+
+../ccutil/lsterr.h:
+
+../ccutil/strngs.h:
+
+../ccutil/bits16.h:
+
+../ccutil/strngs.h:
+
+../ccstruct/blckerr.h:
+
+../ccutil/errcode.h:
+
+../ccstruct/stepblob.h:
+
+../ccstruct/coutln.h:
+
+../ccstruct/crakedge.h:
+
+../ccstruct/points.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/architecture/i386/math.h:
+
+../ccutil/elst.h:
+
+../ccstruct/ipoints.h:
+
+../ccstruct/mod128.h:
+
+../ccstruct/rect.h:
+
+../ccutil/ndminx.h:
+
+../ccutil/tprintf.h:
+
+../ccutil/varable.h:
+
+../viewer/scrollview.h:
+
+../ccstruct/polyblob.h:
+
+../ccstruct/poutline.h:
+
+../ccstruct/polyvert.h:
+
+../ccutil/elst2.h:
+
+../ccstruct/normalis.h:
+
+../ccstruct/ocrrow.h:
+
+../ccstruct/quspline.h:
+
+../ccstruct/quadratc.h:
+
+../ccutil/serialis.h:
+
+../ccutil/memry.h:
+
+../ccstruct/werd.h:
+
+../ccstruct/ratngs.h:
+
+../ccutil/clst.h:
+
+../ccutil/notdll.h:
+
+../ccutil/unichar.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/memory.h:
+
+../ccutil/notdll.h:
+
+../cutil/oldlist.h:
+
+../cutil/cutil.h:
+
+../cutil/general.h:
+
+../ccutil/host.h:
+
+../ccutil/tprintf.h:
+
+../dict/choices.h:
+
+../cutil/oldlist.h:
+
+../dict/hyphen.h:
+
+../dict/choices.h:
+
+../cutil/emalloc.h:
+
+../cutil/callcpp.h:
+
+../ccutil/varable.h:
+
+../ccutil/unichar.h:
+
+../dict/dawg.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/runetype.h:
+
+../cutil/general.h:
+
+../wordrec/tface.h:
+
+../ccutil/host.h:
+
+../dict/choicearr.h:
+
+../cutil/tessarray.h:
+
+../ccutil/tessclas.h:
+
+../cutil/cutil.h:
+
+../dict/permute.h:
+
+../dict/choicearr.h:
+
+../classify/adaptmatch.h:
+
+../cutil/oldlist.h:
+
+../ccutil/tessclas.h:
+
+../classify/fxdefs.h:
+
+../cutil/general.h:
+
+../dict/matchdefs.h:
+
+../ccutil/unichar.h:
+
+../classify/adaptive.h:
+
+../classify/intproto.h:
+
+../classify/protos.h:
+
+../cutil/bitvec.h:
+
+../cutil/cutil.h:
+
+../ccutil/unichar.h:
+
+../cutil/callcpp.h:
+
+../ccutil/unicharset.h:
+
+../ccutil/unichar.h:
+
+../ccutil/unicharmap.h:
+
+../classify/ocrfeatures.h:
+
+../cutil/funcdefs.h:
+
+../ccstruct/ratngs.h:
+
+../classify/blobclass.h:
+
+../dict/stopper.h:
+
+../dict/states.h:
+
+../wordrec/associate.h:
+
+../wordrec/matrix.h:
+
+../cutil/oldlist.h:
+
+../dict/choices.h:
+
+../dict/states.h:
+
+../ccstruct/blobs.h:
+
+../ccstruct/vecfuncs.h:
+
+../ccutil/tessclas.h:
+
+../wordrec/split.h:
+
+../wordrec/seam.h:
+
+../cutil/tessarray.h:
+
+../wordrec/chop.h:
+
+../cutil/oldheap.h:
+
+expandblob.h:
+
+../cutil/tordvars.h:
+
+../wordrec/metrics.h:
+
+../wordrec/measure.h:
+
+../wordrec/bestfirst.h:
+
+../wordrec/closed.h:
+
+../wordrec/associate.h:
+
+../dict/stopper.h:
+
+../wordrec/badwords.h:
+
+../cutil/structures.h:
+
+../ccutil/tessclas.h:
+
+../cutil/oldlist.h:
+
+../cutil/freelist.h:
+
+../cutil/danerror.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/setjmp.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/machine/setjmp.h:
+
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/setjmp.h:
+
+tfacepp.h:
+
+../ccutil/varable.h:
+
+tessbox.h:
+
+../classify/mfoutline.h:
+
+../classify/fpoint.h:
+
+../classify/baseline.h:

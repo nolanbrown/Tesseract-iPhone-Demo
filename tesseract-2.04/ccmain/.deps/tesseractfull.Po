@@ -1,0 +1,3 @@
+tesseractfull.o tesseractfull.o: tesseractfull.cc baseapi.h
+
+baseapi.h:
