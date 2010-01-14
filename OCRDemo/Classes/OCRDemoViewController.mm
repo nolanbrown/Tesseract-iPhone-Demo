@@ -19,7 +19,6 @@ static inline double radians (double degrees) {return degrees * M_PI/180;}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
         // Custom initialization
-		[self startTesseract];	
 
     }
     return self;
@@ -33,18 +32,21 @@ static inline double radians (double degrees) {return degrees * M_PI/180;}
 	// Release any cached data, images, etc that aren't in use.
 }
 
-- (void)viewDidUnload {
+- (void)viewDidLoad {
+	[super viewDidLoad];
+
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
 }
 
 
 - (void)dealloc {
-    [super dealloc];
 	[iv release];
 	iv = nil;
 	[label release];
 	label = nil;
+    [super dealloc];
+
 }
 
 
@@ -124,7 +126,7 @@ static inline double radians (double degrees) {return degrees * M_PI/180;}
 	const UInt8 *imageData = CFDataGetBytePtr(data);
 	
 	// this could take a while. maybe needs to happen asynchronously.
-	char* text = tess->TesseractRect(imageData,(int)bytes_per_pixel,(int)bytes_per_line, 0, 0,(int)imageSize.width, (int)imageSize.height);
+	char* text = tess->TesseractRect(imageData,(int)bytes_per_pixel,(int)bytes_per_line, 0, 0,(int) imageSize.height,(int) imageSize.width);
 	
 	// Do something useful with the text!
 	NSLog(@"Converted text: %@",[NSString stringWithCString:text encoding:NSUTF8StringEncoding]);
@@ -145,8 +147,8 @@ static inline double radians (double degrees) {return degrees * M_PI/180;}
 	
 	int width, height;
 	
-	width = [image size].width;
-	height = [image size].height;
+	width = 640;//[image size].width;
+	height = 640;//[image size].height;
 	
 	CGContextRef bitmap;
 	

@@ -226,6 +226,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nolan Brown (255RW6M7GM)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -236,7 +237,8 @@
 					"-stdc++",
 				);
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.1;
+				PROVISIONING_PROFILE = "01F260E9-D5AB-4C46-9A15-7770A72FAB18";
+				SDKROOT = iphoneos3.0;
 			};
 			name = Debug;
 		};
