@@ -17,7 +17,7 @@ static inline double radians (double degrees) {return degrees * M_PI/180;}
 
 // The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
         // Custom initialization
 
     }
@@ -34,7 +34,7 @@ static inline double radians (double degrees) {return degrees * M_PI/180;}
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-
+  [self startTesseract];
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
 }
